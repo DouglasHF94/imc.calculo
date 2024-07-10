@@ -4,7 +4,7 @@ Olá, aqui demonstro alguns dos mais importante codigos para manipular o DOM.
 
 ## Preview
 
-<img src="https://github.com/DouglasHF94/imc.calculo/blob/master/img/imc.calculo.png" height="500"/>
+<img src="https://github.com/DouglasHF94/imc.calculo/blob/main/img/imc.foto.png" height="500"/>
 
 ## Live link:
 
