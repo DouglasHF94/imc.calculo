@@ -1,0 +1,75 @@
+/* Importados */
+
+@import "componentes/comp.css";
+@import "tipografia&cor/cor.css";
+@import "tipografia&cor/tipografia.css";
+
+/* Global */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+a, li {
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: var(--cor-3);
+}
+
+.apagar {
+  display: none !important;
+}
+
+
+.aparecer {
+  display: block;
+}
+
+
+.bot {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.emLinha {
+  display: inline;
+}
+
+.cont-geral {
+  margin: auto;
+  width: 400px;
+  background: linear-gradient(to right , var(--cor-0) , var(--cor-2));
+  height: 300px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.cont-conteudo {
+  text-align: center;
+}
+
+.botao:hover {
+  background-color: var(--cor-2);
+}
+
+
+/* Pagina resultado*/
+
+

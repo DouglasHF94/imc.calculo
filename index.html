@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calcular Seu IMC</title>
+</head>
+<body>
+  <div class="cont-geral">
+
+    <h1 class="h1">Vamos Calcular seu IMC</h1>
+    
+    <div class="cont-conteudo">
+      <p>Digite Aqui sua altura</p>
+      <input type="text" id="altura"><p class="emLinha">cm</p>
+
+      <p>Digite Aqui seu peso</p>
+      <input type="text" id="peso"><p class="emLinha">Kg</p>
+
+      <p>Qual Seu Sexo</p>
+      <p class="emLinha">Homem</p><input type="checkbox" name="Homem" id="homem">
+      <p class="emLinha">Mulher</p><input type="checkbox" name="Mulher" id="mulher">
+    </div>
+    <div class="bot">
+      <button class="botao" onclick="pegar()">Calcular</button>
+    </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+</html>
